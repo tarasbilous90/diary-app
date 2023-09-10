@@ -16,7 +16,7 @@
                     Taras Bilous 2023
                 </Paragraph>
                 <Paragraph TextAlignment="Center" Foreground="Red" FontWeight="Bold">
-                    Attention!!! Curent version has no implementation of data encryption.
+                    Attention!!! The current version has no implementation of data encryption.
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
