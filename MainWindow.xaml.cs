@@ -84,5 +84,12 @@ namespace WpfDiaryApp
                 ReadFromFile(selectedDateTime.ToString("dd/MM/yyyy"));
             }
         }
+
+        private void AboutMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            AboutWindow aboutWindow = new AboutWindow();
+            aboutWindow.Owner = this;
+            aboutWindow.Show();
+        }
     }
 }

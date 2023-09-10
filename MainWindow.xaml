@@ -8,7 +8,7 @@
         Title="Diary" Height="450" Width="800" MinHeight="450" MinWidth="800">
     <Grid>
         <Menu Height="20" VerticalAlignment="Top" HorizontalAlignment="Stretch">
-            <MenuItem Header="About..."/>
+            <MenuItem Header="About..." Click="AboutMenuItem_Click"/>
         </Menu>
 
         <TextBlock x:Name="textBlock" Margin="10,30,200,70" TextWrapping="Wrap" Background="LightYellow" FontFamily="Cambria" FontSize="14"/>
